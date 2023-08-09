@@ -4,9 +4,10 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import "./filter.css";
 import { useDispatch } from "react-redux";
 import { reset, setRegion } from "../../feature/counteriesSlice";
+import { showAllCountries } from "../../feature/counteriesAction";
 
 const Filter = () => {
-  const regions = ["Africa", "America", "Asia", "Europe", "Oceania"];
+  const regions = ["All", "Africa", "America", "Asia", "Europe", "Oceania"];
 
   const [filter, setFilter] = useState("");
   const [displayDropDown, setDisplayDropDown] = useState(false);
@@ -15,7 +16,9 @@ const Filter = () => {
   };
   const dispatch = useDispatch();
   useEffect(() => {
-    if (filter !== "") {
+    if (filter == "All") {
+      dispatch(showAllCountries);
+    } else if (filter !== "All") {
       dispatch(setRegion(filter.toLocaleLowerCase()));
     }
     return () => {
