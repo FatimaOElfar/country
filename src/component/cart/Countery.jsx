@@ -100,8 +100,10 @@ const Country = () => {
               </div>
 
               <div className="border-country">
-                <p className="border-country-list">
-                  Border Countries:
+                <div>
+                  <p>Border Countries:</p>
+                </div>
+                <div className="border-country-list">
                   {countrySearch[0].borders ? (
                     countrySearch[0].borders.map((data, index) => {
                       return (
@@ -117,7 +119,7 @@ const Country = () => {
                   ) : (
                     <span>No Borders</span>
                   )}
-                </p>
+                </div>
               </div>
             </div>
           </>
