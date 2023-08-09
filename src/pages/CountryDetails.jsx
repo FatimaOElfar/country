@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../component/navbar/Navbar";
 import Countery from "../component/cart/Countery";
 
-const countryDetails = () => {
+const CountryDetails = () => {
   return (
     <div>
       <Navbar />
@@ -11,4 +11,4 @@ const countryDetails = () => {
   );
 };
 
-export default countryDetails;
+export default CountryDetails;
