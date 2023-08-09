@@ -1,0 +1,29 @@
+.light-mode:hover::before {
+    /* Customize the crescent moon shape here */
+    content: '';
+    position: absolute;
+    width: 16px; /* Adjust the width to change the size of the crescent */
+    height: 32px; /* Adjust the height to change the size of the crescent */
+    background-color: #fff; /* Change the color to match your theme */
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(30deg) translateX(-2px); /* Adjust the rotation and translation for positioning */
+    z-index: -1; /* Place the moon shape behind the button content */
+    top: 2px; /* Adjust the vertical position of the moon */
+    left: 4px; /* Adjust the horizontal position of the moon */
+  }
+  
+  .dark-mode:hover::before {
+    /* Customize the crescent shape for dark mode */
+    content: '';
+    position: absolute;
+    width: 16px; /* Adjust the width to change the size of the crescent */
+    height: 32px; /* Adjust the height to change the size of the crescent */
+    border: 8px solid transparent;
+    border-right: 8px solid #fff; /* Change the color to match your theme */
+    border-radius: 50%;
+    transform: rotate(35deg) translateX(-3px); /* Adjust the rotation and translation for positioning */
+    z-index: -1; /* Place the crescent shape behind the button content */
+    top: 2px; /* Adjust the vertical position of the crescent */
+    left: 4px; /* Adjust the horizontal position of the crescent */
+  }
+  

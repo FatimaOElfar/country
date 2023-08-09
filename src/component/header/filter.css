@@ -1,0 +1,79 @@
+.filter-container {
+  width: 20%;
+  /* padding: 1rem 2rem; */
+
+  display: inline-block;
+  position: relative;
+}
+
+.filter {
+  background-color: var(--color-white);
+
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.main-container.dark .filter {
+  background-color: var(--dark-blue-elements);
+}
+/* .main-container.dark .filter .icon {
+  color: #fff;
+} */
+
+.filter form {
+  flex: 1;
+}
+
+.filter-input {
+  font-family: "Nunito Sans", sans-serif;
+  border: 1px solid blue;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  color: gray;
+}
+
+.main-container.dark .filter-input {
+  background-color: blue;
+}
+
+.main-container.dark .filter-input::placeholder {
+  color: var(--color-white);
+}
+
+.filter-input:focus {
+  outline: none;
+}
+
+.dropdown {
+  position: absolute;
+  /* display: none; */
+  margin-top: 2px;
+  background-color: var(--color-white);
+  border-radius: 5px;
+  min-width: 100%;
+  background: #fff;
+  width: 300px;
+  border: 1px solid gray;
+}
+
+.main-container.dark .dropdown {
+  background-color: var(--dark-blue-elements);
+}
+
+.dropdown-item {
+  padding: 0.2rem 2rem;
+  cursor: pointer;
+  color: gray;
+}
+
+.main-container.dark .dropdown-item {
+  color: var(--color-white);
+}
+.icon {
+  margin-left: -60%;
+}
