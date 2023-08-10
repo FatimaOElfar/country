@@ -1,8 +1,39 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Country is a social media web app that will allow you to search for all countries in the world and more things, you can check it out.
 
-Currently, two official plugins are available:
+Live demo [_here_](https://share-me-fatma.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- React js.
+- Redux toolkit
+- Tailwind
+- Vite
+
+## Setup
+
+This project is running on Node js environment, so you have to setup it before use the project.
+
+## Usage
+
+To install the project and use it:
+
+- Clone the project.
+- Go to the root of project.
+
+```
+cd demo
+```
+
+- In the root of project, install dependencies
+
+```
+npm install
+```
+
+- To run it locally.
+
+```
+npm run dev
+```

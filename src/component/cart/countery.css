@@ -3,7 +3,6 @@
   padding: 5rem;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
 }
 
 .main-container.dark .country-detail-container {
@@ -26,7 +25,6 @@
 }
 
 .country-detail-content {
-  /* margin-top: 9rem; */
   display: flex;
   align-items: center;
 }
@@ -47,12 +45,12 @@
 }
 
 .details {
-  display: flex;
   align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .detail-left {
-  /* margin-right: 20rem; */
   min-width: 50%;
 }
 
@@ -83,8 +81,6 @@
 }
 
 .border-country {
-  display: flex;
-  /* margin-top: 8rem; */
   align-items: center;
 }
 
@@ -136,10 +132,9 @@
     padding: 1.5rem;
   }
 
-  .country-detail-content,
-  .details {
+  .country-detail-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 
   .country-detail-image {
