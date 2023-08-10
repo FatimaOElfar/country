@@ -37,7 +37,7 @@ const Filter = () => {
           className="filter-input "
         />
 
-        <FontAwesomeIcon icon={faAngleDown} className="icon" />
+        <FontAwesomeIcon icon={faAngleDown} className="icon dark:text-black" />
       </div>
 
       {displayDropDown ? (
