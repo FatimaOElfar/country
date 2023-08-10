@@ -124,7 +124,7 @@ const Country = () => {
             </div>
           </>
         ) : (
-          <div>NO Details Found</div>
+          <div className="mt-12 text-xl font-bold">NO Details Found</div>
         )}
       </div>
     </section>

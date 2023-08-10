@@ -61,21 +61,21 @@ const Cart = () => {
                 </div>
                 <hr className="my-2 w-full" />
 
-                <p className="text-sm ml-2 text-gray-400 dark:text-white">
+                <p className="text-sm ml-2 text-gray-400 dark:text-white mb-3">
                   <span className="font-bold text-black mr-1 dark:text-white">
                     Population:{" "}
                   </span>
                   {data.population}
                 </p>
                 <hr className="my-2" />
-                <p className="text-sm ml-2 text-gray-400 dark:text-white">
+                <p className="text-sm ml-2 text-gray-400 dark:text-white mb-3">
                   <span className="font-bold text-black mr-1 dark:text-white">
                     Region:{" "}
                   </span>{" "}
                   {data.region}
                 </p>
                 <hr className="my-2" />
-                <p className="text-sm ml-2 text-gray-400 mb-2 dark:text-white">
+                <p className="text-sm ml-2 text-gray-400 mb-2 dark:text-white mb-6">
                   <span className="font-bold text-black mr-1 dark:text-white">
                     Capital:{" "}
                   </span>{" "}
