@@ -13,7 +13,7 @@ const Search = () => {
       <BsSearch
         size={20}
         color="gray"
-        style={{}}
+        
         className="mr-2 dark:text-white"
       />
       <input

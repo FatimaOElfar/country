@@ -41,12 +41,12 @@ const Filter = () => {
       </div>
 
       {displayDropDown ? (
-        <div className="dropdown ">
+        <div className="dropdown dark:bg-slate-900 dark:text-white ">
           {regions.map((data, index) => {
             return (
               <div
                 key={index}
-                className="dropdown-item "
+                className="dropdown-item dark:text-white "
                 onClick={() => {
                   setFilter(data);
                   handelDropDown();
