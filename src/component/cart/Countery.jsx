@@ -28,7 +28,7 @@ const Country = () => {
   return (
     <section className="country-detail-container">
       <Link className="back-button" to="/">
-        <FontAwesomeIcon icon={faArrowLeft} className="text-gray-500" />
+        <FontAwesomeIcon icon={faArrowLeft} className="text-gray-500 mr-4" />
         <span className="text-gray-500">Back To Home</span>
       </Link>
 
@@ -108,7 +108,7 @@ const Country = () => {
                     countrySearch[0].borders.map((data, index) => {
                       return (
                         <Link
-                          className="border-name"
+                          className="border-name "
                           to={`/${data}`}
                           key={index}
                         >

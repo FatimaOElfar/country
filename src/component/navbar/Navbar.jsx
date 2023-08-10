@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className={`flex items-center gap-xl`}>
           <button
             type="button"
-            className="flex flex-row gap-xl border border-gray-300 px-2  py-1 rounded shadow-md"
+            className="flex flex-row gap-xl border border-gray-300 px-2 items-center  py-1 rounded shadow-md"
           >
             <ThemeSwitcher />
             <span className={`ml-2 `}>Dark Mode</span>

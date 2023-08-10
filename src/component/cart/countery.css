@@ -15,7 +15,7 @@
   color: var(--light-mode-text);
   text-decoration: none;
   border-radius: 1rem;
-  box-shadow: 1px 5px 5px #cac7c7;
+  box-shadow: 1px 4px 4px #cac7c7;
   background-color: var(--color-white);
 }
 
@@ -58,6 +58,7 @@
 
 .detail-left p {
   margin-bottom: 1rem;
+  margin-top: 1rem;
   font-weight: 600;
 }
 
@@ -72,6 +73,7 @@
 
 .detail-right p {
   margin-bottom: 1rem;
+  margin-top: 1rem;
   font-weight: 600;
 }
 
@@ -96,16 +98,17 @@
 
 .border-name {
   padding: 0.5rem 2rem;
-  border-radius: 1rem;
-  box-shadow: 1px 5px 5px #cac7c7;
+  border-radius: 2rem;
+  box-shadow: 1px 2px 2px #cac7c7, 1px 2px 2px #cac7c7;
   margin-right: 1rem;
+  margin-top: 1rem;
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
 }
 
 .main-container.dark .border-name {
-  box-shadow: 5px 5px 10px 1px #0b0b0b;
+  box-shadow: 2px 2px 10px 1px #0b0b0b;
   color: var(--color-white);
 }
 
