@@ -2,7 +2,7 @@
 
 Country is a social media web app that will allow you to search for all countries in the world and more things, you can check it out.
 
-Live demo [_here_](https://share-me-fatma.netlify.app)
+Live demo [_here_](https://country-fatma-omar.netlify.app/)
 
 ## Technologies Used
 
