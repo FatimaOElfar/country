@@ -26,7 +26,7 @@ const Country = () => {
     };
   }, [dispatch, code, error]);
   return (
-    <section className="country-detail-container">
+    <section className="country-detail-container h-full">
       <Link className="back-button" to="/">
         <FontAwesomeIcon icon={faArrowLeft} className="text-gray-500 mr-4" />
         <span className="text-gray-500">Back To Home</span>
@@ -99,16 +99,16 @@ const Country = () => {
                 </div>
               </div>
 
-              <div className="border-country">
+              <div className="border-country dark:bg-slate-900 duration-100 h-full">
                 <div>
                   <p>Border Countries:</p>
                 </div>
-                <div className="border-country-list">
+                <div className="border-country-list ">
                   {countrySearch[0].borders ? (
                     countrySearch[0].borders.map((data, index) => {
                       return (
                         <Link
-                          className="border-name "
+                          className="border-name dark:bg-gray-800 dark:text-white"
                           to={`/${data}`}
                           key={index}
                         >
